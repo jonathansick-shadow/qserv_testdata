@@ -54,6 +54,7 @@ from lsst.qserv.tests.unittest.testIntegration import suite
 # ---------------------------------
 _LOG = logging.getLogger()
 
+
 def _parse_args():
 
     parser = argparse.ArgumentParser(

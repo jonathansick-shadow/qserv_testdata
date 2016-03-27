@@ -48,6 +48,8 @@ _LOG = logging.getLogger()
 # ---------------------------------
 # Local non-exported definitions --
 # ---------------------------------
+
+
 def _parse_args():
 
     # used to get default values
@@ -195,6 +197,8 @@ def _run_integration_test(case_id, testdata_dir, out_dir, mode_list,
 # -----------------------
 # Exported definitions --
 # -----------------------
+
+
 def main():
     multi_node = False
 
